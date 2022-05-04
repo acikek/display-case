@@ -27,6 +27,11 @@
                   "op": "replace"
                 },
                 {
+                  "source": "Rainbow",
+                  "target": "BlockEntityData.Rainbow",
+                  "op": "replace"
+                },
+                {
                   "source": "Rotation",
                   "target": "BlockEntityData.Rotation",
                   "op": "replace"

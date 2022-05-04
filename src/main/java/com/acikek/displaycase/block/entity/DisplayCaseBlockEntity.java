@@ -138,7 +138,7 @@ public class DisplayCaseBlockEntity extends BlockEntity {
 	}
 
 	public DyeColor getColor() {
-		return rainbow ? DyeColor.values()[MathHelper.clamp((rotation % 80) / 5, 0, 15)] : color;
+		return rainbow ? DyeColor.values()[(rotation % 75) / 5] : color;
 	}
 
 	@Nullable

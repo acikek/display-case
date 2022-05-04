@@ -100,7 +100,7 @@ public class DisplayCaseBlock extends BlockWithEntity implements Waterloggable {
 					useItem(player, pos, handStack);
 					event = SoundEvents.BLOCK_BASALT_BREAK;
 				}
-				else if (blockEntity.color != null && handStack.isOf(Items.WATER_BUCKET)) {
+				else if (blockEntity.color != null && handStack.isOf(Items.WATER_BUCKET) && !blockEntity.rainbow) {
 					blockEntity.setColor(null);
 					triggerItemUsed(player, pos, handStack);
 					if (!player.isCreative()) {
