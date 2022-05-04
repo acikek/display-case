@@ -1,0 +1,117 @@
+{
+  "parent": "display_case:dye_case",
+  "display": {
+    "title": {
+      "translate": "advancement.display_case.dye_all_colors.title"
+    },
+    "description": {
+      "translate": "advancement.display_case.dye_all_colors.description"
+    },
+    "icon": {
+      "item": "display_case:display_case",
+      "nbt": "{BlockEntityData:{Rainbow:true}}"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "white": {
+      "trigger": "display_case:dye_display_case",
+      "conditions": {
+        "color": "white"
+      }
+    },
+    "orange": {
+      "trigger": "display_case:dye_display_case",
+      "conditions": {
+        "color": "orange"
+      }
+    },
+    "magenta": {
+      "trigger": "display_case:dye_display_case",
+      "conditions": {
+        "color": "magenta"
+      }
+    },
+    "light_blue": {
+      "trigger": "display_case:dye_display_case",
+      "conditions": {
+        "color": "light_blue"
+      }
+    },
+    "yellow": {
+      "trigger": "display_case:dye_display_case",
+      "conditions": {
+        "color": "yellow"
+      }
+    },
+    "lime": {
+      "trigger": "display_case:dye_display_case",
+      "conditions": {
+        "color": "lime"
+      }
+    },
+    "pink": {
+      "trigger": "display_case:dye_display_case",
+      "conditions": {
+        "color": "pink"
+      }
+    },
+    "gray": {
+      "trigger": "display_case:dye_display_case",
+      "conditions": {
+        "color": "gray"
+      }
+    },
+    "light_gray": {
+      "trigger": "display_case:dye_display_case",
+      "conditions": {
+        "color": "light_gray"
+      }
+    },
+    "cyan": {
+      "trigger": "display_case:dye_display_case",
+      "conditions": {
+        "color": "cyan"
+      }
+    },
+    "purple": {
+      "trigger": "display_case:dye_display_case",
+      "conditions": {
+        "color": "purple"
+      }
+    },
+    "blue": {
+      "trigger": "display_case:dye_display_case",
+      "conditions": {
+        "color": "blue"
+      }
+    },
+    "brown": {
+      "trigger": "display_case:dye_display_case",
+      "conditions": {
+        "color": "brown"
+      }
+    },
+    "green": {
+      "trigger": "display_case:dye_display_case",
+      "conditions": {
+        "color": "green"
+      }
+    },
+    "red": {
+      "trigger": "display_case:dye_display_case",
+      "conditions": {
+        "color": "red"
+      }
+    },
+    "black": {
+      "trigger": "display_case:dye_display_case",
+      "conditions": {
+        "color": "black"
+      }
+    }
+  }
+}

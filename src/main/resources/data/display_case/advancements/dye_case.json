@@ -1,0 +1,28 @@
+{
+  "parent": "display_case:display_item",
+  "display": {
+    "title": {
+      "translate": "advancement.display_case.dye_case.title"
+    },
+    "description": {
+      "translate": "advancement.display_case.dye_case.description"
+    },
+    "icon": {
+      "item": "minecraft:red_dye"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dye_display_case": {
+      "trigger": "display_case:dye_display_case"
+    }
+  },
+  "requirements": [
+    [
+      "dye_display_case"
+    ]
+  ]
+}

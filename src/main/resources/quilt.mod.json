@@ -1,0 +1,36 @@
+{
+	"schema_version": 1,
+	"quilt_loader": {
+		"group": "com.acikek",
+		"id": "displaycase",
+		"version": "${version}",
+		"metadata": {
+			"name": "Display Case Restitched",
+			"description": "A polished port of ChappiePie's Display Case mod",
+			"contributors": {
+				"ChappiePie": "Original Author",
+				"acikek": "Owner"
+			},
+			"icon": "assets/display_case/icon.png"
+		},
+		"intermediate_mappings": "net.fabricmc:intermediary",
+		"entrypoints": {
+			"init": "com.acikek.displaycase.DisplayCase",
+			"client_init": "com.acikek.displaycase.client.DisplayCaseClient"
+		},
+		"depends": [
+			{
+				"id": "quilt_loader",
+				"versions": ">=0.16.0-"
+			},
+			{
+				"id": "quilted_fabric_api",
+				"versions": ">=1.0.0-"
+			},
+			{
+				"id": "minecraft",
+				"versions": ">=1.18.2"
+			}
+		]
+	}
+}

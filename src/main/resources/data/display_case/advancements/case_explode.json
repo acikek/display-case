@@ -1,0 +1,28 @@
+{
+  "parent": "display_case:intertwine_cases",
+  "display": {
+    "title": {
+      "translate": "advancement.display_case.case_explode.title"
+    },
+    "description": {
+      "translate": "advancement.display_case.case_explode.description"
+    },
+    "icon": {
+      "item": "minecraft:tnt"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "explosion": {
+      "trigger": "display_case:display_case_explode"
+    }
+  },
+  "requirements": [
+    [
+      "explosion"
+    ]
+  ]
+}

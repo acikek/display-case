@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:copy_nbt",
+              "source": "block_entity",
+              "ops": [
+                {
+                  "source": "Item",
+                  "target": "BlockEntityData.Item",
+                  "op": "replace"
+                },
+                {
+                  "source": "Color",
+                  "target": "BlockEntityData.Color",
+                  "op": "replace"
+                },
+                {
+                  "source": "Waxed",
+                  "target": "BlockEntityData.Waxed",
+                  "op": "replace"
+                },
+                {
+                  "source": "Rotation",
+                  "target": "BlockEntityData.Rotation",
+                  "op": "replace"
+                },
+                {
+                  "source": "CachedAngle",
+                  "target": "BlockEntityData.CachedAngle",
+                  "op": "replace"
+                }
+              ]
+            }
+          ],
+          "name": "display_case:display_case"
+        }
+      ]
+    }
+  ]
+}

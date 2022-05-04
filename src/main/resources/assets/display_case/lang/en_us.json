@@ -1,0 +1,13 @@
+{
+  "block.display_case.display_case": "Display Case",
+  "advancement.display_case.display_item.title": "What an Item!",
+  "advancement.display_case.display_item.description": "Show off an item in a display case",
+  "advancement.display_case.dye_case.title": "Colorful",
+  "advancement.display_case.dye_case.description": "Dye a display case",
+  "advancement.display_case.dye_all_colors.title": "Masterpiece",
+  "advancement.display_case.dye_all_colors.description": "Use every color on a display case",
+  "advancement.display_case.intertwine_cases.title": "Matryoshka",
+  "advancement.display_case.intertwine_cases.description": "Put a display case in a display case",
+  "advancement.display_case.case_explode.title": "The Collapse",
+  "advancement.display_case.case_explode.description": "Intertwine too many cases"
+}

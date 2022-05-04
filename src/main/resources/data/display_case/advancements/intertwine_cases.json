@@ -1,0 +1,36 @@
+{
+  "parent": "display_case:display_item",
+  "display": {
+    "title": {
+      "translate": "advancement.display_case.intertwine_cases.title"
+    },
+    "description": {
+      "translate": "advancement.display_case.intertwine_cases.description"
+    },
+    "icon": {
+      "item": "display_case:display_case",
+      "nbt": "{BlockEntityData:{Item:{id:\"display_case:display_case\",Count:1}}}"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "display_item": {
+      "trigger": "display_case:display_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "display_case:display_case"
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "display_item"
+    ]
+  ]
+}
